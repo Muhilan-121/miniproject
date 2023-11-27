@@ -1,0 +1,128 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Movie Ticket Booking</title>
+</head>
+<body>
+<h1 style="color: #ff6600;">Movie Ticket Booking</h1>
+<form action="#" method="post">
+<label for="movie">Select Movie:</label><br>
+<select id="movie" name="movie">
+<option value="movie1">Movie 1</option>
+<option value="movie2">Movie 2</option>
+<option value="movie3">Movie 3</option>
+</select><br><br>
+<label for="date">Select Date:</label><br>
+<input type="date" id="date" name="date"><br><br>
+<label for="time">Select Time:</label><br>
+<input type="time" id="time" name="time"><br><br>
+<label for="tickets">Number of Tickets:</label><br>
+<input type="number" id="tickets" name="tickets" min="1" max="10"><br><br>
+<input type="submit" value="Book Tickets" style="background-color: 
+#33cc33; color: white; padding: 10px 20px; border: none; border-radius: 5px; 
+cursor: pointer;">
+</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login - Movie Ticket Booking</title>
+</head>
+<body>
+<h1 style="color: #ff6600;">Movie Ticket Booking</h1>
+<form action="#" method="post">
+<h2 style="color: #3366cc;">Login</h2>
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password"><br><br>
+<input type="submit" value="Login" style="background-color: #33cc33; 
+color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: 
+pointer;">
+</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us - Movie Ticket Booking</title>
+</head>
+<body>
+<h1 style="color: #ff6600;">Movie Ticket Booking</h1>
+<h2 style="color: #3366cc;">Contact Us</h2>
+<p style="color: #666666;">For any inquiries or assistance, please feel free 
+to reach out to us:</p>
+<form action="#" method="post">
+<label for="name">Your Name:</label><br>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Your Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="4"
+cols="50"></textarea><br><br>
+<input type="submit" value="Submit" style="background-color: #33cc33; 
+color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: 
+pointer;">
+</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Upcoming Movies</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+}
+h1 {
+color: #ff6600;
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+li {
+background-color: #fff;
+color: #333;
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 5px;
+.movie-details {
+display: flex;
+justify-content: space-between;
+}
+</style>
+</head>
+<body>
+<h1>Upcoming Movies</h1>
+<ul>
+<li>
+<h2>Black Panther</h2>
+<div class="movie-details">
+<p>Timing: 6:00 PM</p>
+<p>Remaining Tickets: 50</p>
+</div>
+</li>
+<li>
+<h2>Return of Iron Man</h2>
+<div class="movie-details">
+<p>Timing: 7:30 PM</p>
+<p>Remaining Tickets: 30</p>
+</div>
+</li>
+<li>
+<h2>End Game 2</h2>
+<div class="movie-details">
+<p>Timing: 9:00 PM</p>
+<p>Remaining Tickets: 20</p>
+</div>
+</li>
+</ul>
+</body>
+</html>
